@@ -5,7 +5,6 @@ import repository.SavedConversion;
 import template.Console;
 import template.Message_template;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 import static controllers.InputValidator.verifyInput;

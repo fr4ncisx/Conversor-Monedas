@@ -1,7 +1,6 @@
 package controllers;
 
 import java.time.LocalDateTime;
-import java.util.Date;
 
 public class DateController {
     private static final LocalDateTime currentDate = LocalDateTime.now();

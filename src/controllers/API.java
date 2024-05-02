@@ -19,7 +19,6 @@ public class API {
     private static final String api_key = "33e4aa021c6f78bb6c5e73c1";
     private static Double amountMain;
     private static String mainCurrency;
-    //private static boolean isLocalMapping;
     private static boolean exit = false;
     private static SupportedCurrenciesDTO currencies;
 
@@ -27,7 +26,6 @@ public class API {
     public static void requestMapping() {
         Scanner sc = new Scanner(System.in);
         currencies = addCurrencies();
-
         exit = false;
         if (currencies != null) {
             while (!exit) {
@@ -169,7 +167,6 @@ public class API {
     }
 
     private static void connectionAPI(String altCurrency) {
-        CurrencyDTO getConnection = getConnection();
         saveData(getConnection(), altCurrency);
     }
 

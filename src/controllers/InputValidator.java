@@ -1,7 +1,6 @@
 package controllers;
 
 import template.Console;
-import template.Message_template;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
