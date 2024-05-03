@@ -24,13 +24,13 @@ Gson (Dependency)
 > Non numbers sent will be invalid
 
 #### Currency Converter
-![alt text](image.png)
+![alt text](lib/img/image-0.png)
 #### History Conversions
-![alt text](image-1.png)
+![alt text](lib/img/image-1.png)
 #### Find Currency code by Country
-![alt text](image-2.png)
+![alt text](lib/img/image-2.png)
 #### Supported currencies
-![alt text](image-4.png)
+![alt text](lib/img/image-4.png)
 
 ## Folder Structure
 ![alt text](lib/img/image.png)
