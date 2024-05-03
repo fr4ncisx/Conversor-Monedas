@@ -162,6 +162,9 @@ public class API {
         if (currency_dto != null) {
             Double amountAlt = currency_dto.conversion_rates().get(altCurrency);
             Double calculatedAmount = Calculator.conversion(amountMain, amountAlt);
+            System.out.println();
+            Console.color("Final conversion is $ " + calculatedAmount + " " + altCurrency, Console.GREEN);
+            System.out.println();
             SavedConversion.createTable(mainCurrency, altCurrency, amountMain, calculatedAmount);
         }
     }
