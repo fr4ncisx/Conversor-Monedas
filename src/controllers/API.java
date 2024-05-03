@@ -164,7 +164,6 @@ public class API {
             Double calculatedAmount = Calculator.conversion(amountMain, amountAlt);
             System.out.println();
             Console.color("Final conversion is $ " + calculatedAmount + " " + altCurrency, Console.GREEN);
-            System.out.println();
             SavedConversion.createTable(mainCurrency, altCurrency, amountMain, calculatedAmount);
         }
     }
